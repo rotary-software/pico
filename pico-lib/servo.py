@@ -1,6 +1,5 @@
 from machine import Pin, PWM
  
- 
 class Servo:
  
     def __init__(self, pin: int or Pin or PWM, minVal=2500, maxVal=7500):
